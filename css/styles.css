@@ -512,12 +512,16 @@ body {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     outline: transparent;
-    padding-left: 16px;
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;        
-    color: var(--text-card-background);
+    padding: 8px 0 8px 16px;
     margin-right: 24px;
+    color: var(--text-card-background);
+}
+
+.footer-input::placeholder {
+    font-size: 12px;
+    line-height: 2x;
+    letter-spacing: 0.04em;
+    color: var(--text-card-background);
 }
 
 .subscribe-button-text {
@@ -747,6 +751,10 @@ body {
 .modal-input-wrap {
     position: relative;
     margin-bottom: 8px;
+}
+
+.modal-comment-wrap {
+    position: relative;
 }
 
 .modal-label {
